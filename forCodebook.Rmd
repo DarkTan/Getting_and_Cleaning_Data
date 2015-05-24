@@ -1,0 +1,39 @@
+Variable list and descriptions
+------------------------------
+
+Variable name    | Description
+-----------------|------------
+subjects         | ID the subject who performed the activity for each window sample. Its range is from 1 to 30.
+activity_labels  | Activity type number, range 1 to 6.
+activity_name    | Activity name
+average          |  Average of each variable for each activity and each subject
+
+Dataset structure
+-----------------
+
+```{r}
+str(tidy_dataset)
+```
+
+List the key variables in the data table
+----------------------------------------
+
+```{r}
+key(tidy_dataset)
+```
+
+Show a few rows of the dataset
+------------------------------
+
+```{r}
+tidy_dataset
+```
+
+Summary of variables
+--------------------
+
+```{r}
+summary(tidy_dataset)
+```
+
+
