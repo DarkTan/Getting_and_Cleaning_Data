@@ -114,7 +114,7 @@ setnames(x, names(x), c("subjects", "activity_labels", "activity_name", "average
 ---
 
 ```{r}
-new_dataset <- file.path(getwd(), "Dataset_for_homework.txt")
+new_dataset <- file.path(getwd(), "tidyDataset.txt")
 write.table(x, new_dataset, quote=FALSE,sep="  ", row.names=FALSE)
 tidy_dataset <- x
 ```
